@@ -144,6 +144,21 @@ const routes = [
     path: '/vuex/login',
     name: 'LoginView',
     component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/6_vuex/LoginView.vue')
+  },
+  {
+    path: '/composition/setup',
+    name: 'SetupView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/7_composition/SetupView.vue')
+  },
+  {
+    path: '/composition/ref',
+    name: 'RefView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/7_composition/RefView.vue')
+  },
+  {
+    path: '/composition/func',
+    name: 'FuncView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/7_composition/FuncView.vue')
   }
 ]
 
