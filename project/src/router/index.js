@@ -159,6 +159,16 @@ const routes = [
     path: '/composition/func',
     name: 'FuncView',
     component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/7_composition/FuncView.vue')
+  },
+  {
+    path: '/login/kakao',
+    name: 'KakaoLoginView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/8_login/KakaoLoginView.vue')
+  },
+  {
+    path: '/login/main',
+    name: 'MainView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/8_login/MainView.vue')
   }
 ]
 

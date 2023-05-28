@@ -22,6 +22,7 @@ export const user = {
         return false
       }
     },
+    // 로그인 하지 않았는데 main 경로로 이동할 경우 로그인 하도록 화면 이동시키기
     isKakaoLogin() {
       if (window.Kakao.Auth.getAccessToken()) {
         return true
