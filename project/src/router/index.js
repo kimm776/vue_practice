@@ -169,6 +169,11 @@ const routes = [
     path: '/login/main',
     name: 'MainView',
     component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/8_login/MainView.vue')
+  },
+  {
+    path: '/login/naver',
+    name: 'NaverLoginView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/8_login/NaverLoginView.vue')
   }
 ]
 
