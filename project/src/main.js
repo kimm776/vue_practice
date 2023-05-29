@@ -7,6 +7,12 @@ import i18nPlugin from './plugins/i18n'
 import en from './i18n/en'
 import ko from './i18n/ko'
 import PageTitle from './components/fragments/PageTitle.vue'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faUserSecret, faUserClock } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+// library.add(faUserSecret)
+// library.add(faUserClock)
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.js'
@@ -31,6 +37,7 @@ app.use(store)
 app.use(router)
 app.mixin(mixin)
 app.component('page-title', PageTitle)
+// app.component('font-awesome-icon', FontAwesomeIcon)
 app.use(i18nPlugin, i18nStrings)
 
 app.directive('focus', {

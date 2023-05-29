@@ -179,6 +179,11 @@ const routes = [
     path: '/module/map',
     name: 'KakaoMapView',
     component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/9_module/KakaoMapView.vue')
+  },
+  {
+    path: '/module/font',
+    name: 'FontawesomeView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/9_module/FontawesomeView.vue')
   }
 ]
 
