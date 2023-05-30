@@ -10,6 +10,10 @@ import PageTitle from './components/fragments/PageTitle.vue'
 // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { faUserSecret, faUserClock } from '@fortawesome/free-solid-svg-icons'
 // import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import VueSweetalert2 from 'vue-sweetalert2'
+import 'sweetalert2/dist/sweetalert2.min.css'
+import VueLoading from 'vue-loading-overlay'
+import 'vue-loading-overlay/dist/css/index.css'
 
 // library.add(faUserSecret)
 // library.add(faUserClock)
@@ -39,6 +43,8 @@ app.mixin(mixin)
 app.component('page-title', PageTitle)
 // app.component('font-awesome-icon', FontAwesomeIcon)
 app.use(i18nPlugin, i18nStrings)
+app.use(VueSweetalert2)
+app.use(VueLoading)
 
 app.directive('focus', {
   mounted(el, binding) {
