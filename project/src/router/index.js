@@ -199,6 +199,11 @@ const routes = [
     path: '/module/loading',
     name: 'LoadingOverlayView',
     component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/9_module/LoadingOverlayView.vue')
+  },
+  {
+    path: '/module/table',
+    name: 'VueGoodTableView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/9_module/VueGoodTableView.vue')
   }
 ]
 
