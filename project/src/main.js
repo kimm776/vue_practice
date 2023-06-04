@@ -16,6 +16,7 @@ import VueLoading from 'vue-loading-overlay'
 import 'vue-loading-overlay/dist/css/index.css'
 import VueGoodTablePlugin from 'vue-good-table-next'
 import 'vue-good-table-next/dist/vue-good-table-next.css'
+import VueApexCharts from 'vue3-apexcharts'
 
 // library.add(faUserSecret)
 // library.add(faUserClock)
@@ -48,6 +49,7 @@ app.use(i18nPlugin, i18nStrings)
 app.use(VueSweetalert2)
 app.use(VueLoading)
 app.use(VueGoodTablePlugin)
+app.use(VueApexCharts)
 
 app.directive('focus', {
   mounted(el, binding) {
