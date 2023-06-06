@@ -26,14 +26,17 @@
       "picture": "http://placehold.it/32x32",
       "age": 28,
       "eyeColor": "blue",
-      "name": "Horton Roman",
+      "name": "Horton Romana",
       "gender": "male",
       "company": "GALLAXIA",
       "email": "hortonroman@gallaxia.com",
-      "phone": "+1 (884) 532-3457",
-      "address": "845 Legion Street, Harrison, Colorado, 6362",
+      "phone": "010-0000-0000",
+      "address": "(12417) 경기 가평군 가평읍 광장로22번길 27-9 1",
       "about": "Excepteur mollit aliquip irure occaecat amet non tempor laborum elit dolor. Sint reprehenderit reprehenderit aute ea velit consectetur eiusmod pariatur occaecat id laboris velit enim Lorem. Laboris eu tempor proident proident commodo do.\r\n",
-      "registered": "2022-01-08T12:25:17 -09:00"
+      "registered": "2022-01-08T12:25:17 -09:00",
+      "zonecode": "12417",
+      "roadAddress": "경기 가평군 가평읍 광장로22번길 27-9",
+      "detailAddress": "1"
     },
     {
       "id": "647c95bfd252dad0dd61db91",
